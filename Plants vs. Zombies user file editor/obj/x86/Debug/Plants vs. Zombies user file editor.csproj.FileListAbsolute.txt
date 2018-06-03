@@ -1,0 +1,12 @@
+C:\Users\timot\Downloads\plants-vs-zombies-user-file-editor-master\Plants vs. Zombies user file editor\bin\Debug\Plants_vs.Zombies_user_file_editor.exe.config
+C:\Users\timot\Downloads\plants-vs-zombies-user-file-editor-master\Plants vs. Zombies user file editor\bin\Debug\Plants_vs.Zombies_user_file_editor.exe
+C:\Users\timot\Downloads\plants-vs-zombies-user-file-editor-master\Plants vs. Zombies user file editor\bin\Debug\Plants_vs.Zombies_user_file_editor.pdb
+C:\Users\timot\Downloads\plants-vs-zombies-user-file-editor-master\Plants vs. Zombies user file editor\obj\x86\Debug\Plants vs. Zombies user file editor.csprojResolveAssemblyReference.cache
+C:\Users\timot\Downloads\plants-vs-zombies-user-file-editor-master\Plants vs. Zombies user file editor\obj\x86\Debug\Plants_vs.Zombies_user_file_editor.FormAbout.resources
+C:\Users\timot\Downloads\plants-vs-zombies-user-file-editor-master\Plants vs. Zombies user file editor\obj\x86\Debug\Plants_vs.Zombies_user_file_editor.FormSelectUser.resources
+C:\Users\timot\Downloads\plants-vs-zombies-user-file-editor-master\Plants vs. Zombies user file editor\obj\x86\Debug\Plants_vs.Zombies_user_file_editor.MainForm.resources
+C:\Users\timot\Downloads\plants-vs-zombies-user-file-editor-master\Plants vs. Zombies user file editor\obj\x86\Debug\Plants_vs.Zombies_user_file_editor.Properties.Resources.resources
+C:\Users\timot\Downloads\plants-vs-zombies-user-file-editor-master\Plants vs. Zombies user file editor\obj\x86\Debug\Plants vs. Zombies user file editor.csproj.GenerateResource.cache
+C:\Users\timot\Downloads\plants-vs-zombies-user-file-editor-master\Plants vs. Zombies user file editor\obj\x86\Debug\Plants vs. Zombies user file editor.csproj.CoreCompileInputs.cache
+C:\Users\timot\Downloads\plants-vs-zombies-user-file-editor-master\Plants vs. Zombies user file editor\obj\x86\Debug\Plants_vs.Zombies_user_file_editor.exe
+C:\Users\timot\Downloads\plants-vs-zombies-user-file-editor-master\Plants vs. Zombies user file editor\obj\x86\Debug\Plants_vs.Zombies_user_file_editor.pdb

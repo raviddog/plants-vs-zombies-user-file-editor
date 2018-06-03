@@ -64,7 +64,7 @@ namespace Plants_vs.Zombies_user_file_editor
         public BoolPreserveNonzero HasTaco;
         private uint[] unknown9 = new uint[3];
         public ZenGardenPlant[] ZenGardenPlants;
-        public BoolPreserveNonzero[] HasAchievement = new BoolPreserveNonzero[20];
+        public BoolPreserveNonzero[] HasAchievement = new BoolPreserveNonzero[21];
         public BoolPreserveNonzero AcceptedZombatarLicenseAgreement;
         public Zombatar[] Zombatars;
         private uint[] unknown10 = new uint[5];

@@ -55,7 +55,7 @@ namespace Plants_vs.Zombies_user_file_editor
         DateTimePicker[] marigoldDateTimePicker = new DateTimePicker[3];
         CheckBox[] marigoldNeverPurchasedCheckBox = new CheckBox[3];
         CheckBox[] shopPlantCheckBox = new CheckBox[9];
-        CheckBox[] achievementCheckBox = new CheckBox[20];
+        CheckBox[] achievementCheckBox = new CheckBox[21];
 
         private void InitializeControlArrays()
         {
@@ -149,6 +149,7 @@ namespace Plants_vs.Zombies_user_file_editor
             achievementCheckBox[17] = checkBoxAchievement17;
             achievementCheckBox[18] = checkBoxAchievement18;
             achievementCheckBox[19] = checkBoxAchievement19;
+            achievementCheckBox[20] = checkBoxAchievement20;
         }
 
         private bool SelectUser()

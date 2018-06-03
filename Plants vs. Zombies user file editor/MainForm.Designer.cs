@@ -31,6 +31,7 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
             this.tabControl = new System.Windows.Forms.TabControl();
             this.tabPageGeneral = new System.Windows.Forms.TabPage();
+            this.buttonChangeUser = new System.Windows.Forms.Button();
             this.checkBoxHasTaco = new System.Windows.Forms.CheckBox();
             this.checkBoxPuzzleModeUnlocked = new System.Windows.Forms.CheckBox();
             this.checkBoxMiniGamesUnlocked = new System.Windows.Forms.CheckBox();
@@ -241,7 +242,7 @@
             this.buttonSave = new System.Windows.Forms.Button();
             this.buttonReload = new System.Windows.Forms.Button();
             this.buttonAbout = new System.Windows.Forms.Button();
-            this.buttonChangeUser = new System.Windows.Forms.Button();
+            this.checkBoxAchievement20 = new System.Windows.Forms.CheckBox();
             this.tabControl.SuspendLayout();
             this.tabPageGeneral.SuspendLayout();
             this.groupBoxStore.SuspendLayout();
@@ -324,6 +325,16 @@
             this.tabPageGeneral.TabIndex = 0;
             this.tabPageGeneral.Text = "General";
             this.tabPageGeneral.UseVisualStyleBackColor = true;
+            // 
+            // buttonChangeUser
+            // 
+            this.buttonChangeUser.Location = new System.Drawing.Point(326, 2);
+            this.buttonChangeUser.Name = "buttonChangeUser";
+            this.buttonChangeUser.Size = new System.Drawing.Size(75, 23);
+            this.buttonChangeUser.TabIndex = 18;
+            this.buttonChangeUser.Text = "Change...";
+            this.buttonChangeUser.UseVisualStyleBackColor = true;
+            this.buttonChangeUser.Click += new System.EventHandler(this.buttonChangeUser_Click);
             // 
             // checkBoxHasTaco
             // 
@@ -1558,6 +1569,7 @@
             // 
             // tabPageAchievements
             // 
+            this.tabPageAchievements.Controls.Add(this.checkBoxAchievement20);
             this.tabPageAchievements.Controls.Add(this.buttonSelectNoAchievements);
             this.tabPageAchievements.Controls.Add(this.buttonSelectAllAchievements);
             this.tabPageAchievements.Controls.Add(this.checkBoxAchievement19);
@@ -1589,7 +1601,7 @@
             // 
             // buttonSelectNoAchievements
             // 
-            this.buttonSelectNoAchievements.Location = new System.Drawing.Point(89, 244);
+            this.buttonSelectNoAchievements.Location = new System.Drawing.Point(89, 277);
             this.buttonSelectNoAchievements.Name = "buttonSelectNoAchievements";
             this.buttonSelectNoAchievements.Size = new System.Drawing.Size(75, 23);
             this.buttonSelectNoAchievements.TabIndex = 21;
@@ -1599,7 +1611,7 @@
             // 
             // buttonSelectAllAchievements
             // 
-            this.buttonSelectAllAchievements.Location = new System.Drawing.Point(8, 245);
+            this.buttonSelectAllAchievements.Location = new System.Drawing.Point(8, 277);
             this.buttonSelectAllAchievements.Name = "buttonSelectAllAchievements";
             this.buttonSelectAllAchievements.Size = new System.Drawing.Size(75, 23);
             this.buttonSelectAllAchievements.TabIndex = 20;
@@ -2764,15 +2776,15 @@
             this.buttonAbout.UseVisualStyleBackColor = true;
             this.buttonAbout.Click += new System.EventHandler(this.buttonAbout_Click);
             // 
-            // buttonChangeUser
+            // checkBoxAchievement20
             // 
-            this.buttonChangeUser.Location = new System.Drawing.Point(326, 2);
-            this.buttonChangeUser.Name = "buttonChangeUser";
-            this.buttonChangeUser.Size = new System.Drawing.Size(75, 23);
-            this.buttonChangeUser.TabIndex = 18;
-            this.buttonChangeUser.Text = "Change...";
-            this.buttonChangeUser.UseVisualStyleBackColor = true;
-            this.buttonChangeUser.Click += new System.EventHandler(this.buttonChangeUser_Click);
+            this.checkBoxAchievement20.AutoSize = true;
+            this.checkBoxAchievement20.Location = new System.Drawing.Point(8, 245);
+            this.checkBoxAchievement20.Name = "checkBoxAchievement20";
+            this.checkBoxAchievement20.Size = new System.Drawing.Size(104, 17);
+            this.checkBoxAchievement20.TabIndex = 22;
+            this.checkBoxAchievement20.Text = "Disco is Undead";
+            this.checkBoxAchievement20.UseVisualStyleBackColor = true;
             // 
             // MainForm
             // 
@@ -2787,7 +2799,7 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.Name = "MainForm";
-            this.Text = "Plants vs. Zombies user file editor - version 0.1";
+            this.Text = "Plants vs. Zombies user file editor - version 0.1a";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.MainForm_FormClosing);
             this.Load += new System.EventHandler(this.MainForm_Load);
             this.tabControl.ResumeLayout(false);
@@ -3059,6 +3071,7 @@
         private System.Windows.Forms.Button buttonSelectNoAchievements;
         private System.Windows.Forms.Button buttonSelectAllAchievements;
         private System.Windows.Forms.Button buttonChangeUser;
+        private System.Windows.Forms.CheckBox checkBoxAchievement20;
     }
 }
 

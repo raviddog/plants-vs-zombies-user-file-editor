@@ -37,6 +37,8 @@
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.richTextBox1 = new System.Windows.Forms.RichTextBox();
+            this.label6 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -45,9 +47,9 @@
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(12, 143);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(255, 13);
+            this.label1.Size = new System.Drawing.Size(261, 13);
             this.label1.TabIndex = 0;
-            this.label1.Text = "Plants vs. Zombies user file editor v0.1 (2012/12/29)";
+            this.label1.Text = "Plants vs. Zombies user file editor v0.1a (2018/05/24)";
             // 
             // pictureBox1
             // 
@@ -62,7 +64,7 @@
             // buttonOK
             // 
             this.buttonOK.DialogResult = System.Windows.Forms.DialogResult.OK;
-            this.buttonOK.Location = new System.Drawing.Point(125, 389);
+            this.buttonOK.Location = new System.Drawing.Point(125, 437);
             this.buttonOK.Name = "buttonOK";
             this.buttonOK.Size = new System.Drawing.Size(75, 23);
             this.buttonOK.TabIndex = 2;
@@ -105,19 +107,39 @@
             // 
             // richTextBox1
             // 
-            this.richTextBox1.Location = new System.Drawing.Point(18, 214);
+            this.richTextBox1.Location = new System.Drawing.Point(15, 262);
             this.richTextBox1.Name = "richTextBox1";
             this.richTextBox1.Size = new System.Drawing.Size(304, 169);
             this.richTextBox1.TabIndex = 7;
             this.richTextBox1.Text = resources.GetString("richTextBox1.Text");
             this.richTextBox1.LinkClicked += new System.Windows.Forms.LinkClickedEventHandler(this.richTextBox1_LinkClicked);
             // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(12, 211);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(188, 13);
+            this.label6.TabIndex = 8;
+            this.label6.Text = "Updated for Steam edition by raviddog";
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(12, 237);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(306, 13);
+            this.label7.TabIndex = 9;
+            this.label7.Text = "Contact me on Discord @ raviddog#7629 or Twitter @raviddog";
+            // 
             // FormAbout
             // 
             this.AcceptButton = this.buttonOK;
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(334, 420);
+            this.ClientSize = new System.Drawing.Size(334, 471);
+            this.Controls.Add(this.label7);
+            this.Controls.Add(this.label6);
             this.Controls.Add(this.richTextBox1);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
@@ -147,5 +169,7 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.RichTextBox richTextBox1;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Label label7;
     }
 }
