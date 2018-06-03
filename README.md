@@ -16,6 +16,9 @@ For details of the user file format used to create this tool and screenshots, se
 
 http://plantsvszombies.wikia.com/wiki/User_File_Format
 
+Updated to version 0.1a to support the current Steam version of the game, which has 21
+achievements. 0.1 should still be used for the Origin version which has 20 achievements.
+
 Legal
 =====
 Plants vs. Zombies is a trademark of Popcap Games. This application is not created by
